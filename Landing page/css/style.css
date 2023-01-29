@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #85DCBD; 
+} 
+ header{
+    color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding: 0 40px;
+    
+}
+ header .logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+ header .menu ul{
+    display: flex;
+}
+ header .menu ul li{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+ header .menu li a{
+    font: size 0.8em; ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 23px;
+}
+ .signin-btn{
+    background: rgb(255, 254, 254, .3);
+    padding: 15px 15px  ; 
+    border-radius: 20px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* height: 40px; */
+}
+ .container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+ #home{
+    height:calc(100vh - 90px);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+ #home .content{
+    width: 50%;
+
+}
+ #home .content h1{
+  font-size: 5rem;
+  font-weight: 900;
+  color:#41b3a3;
+  margin-bottom: 2rem;
+  position: relative;
+  top: 2cm;
+}
+ #home .content h4{
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    position: relative;
+    top: 4cm;
+  }
+  #home .content .products{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+  }
+  .products .Avatar, .products .product1, .products .product2, .products .product3 {
+    padding: 20px 20px  ; 
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e27d60;
+    font-weight: 500;
+    font-size: .9rem;
+   }
+   .products .Avatar
+   {
+    background: #e27d60;
+    color: #ffffff;
+   }
+   .products .product1, .products .product2, .products .product3{
+    background: white;
+    color: #41b3a3;
+   }
+#home .images{
+    width: 50%;
+    position: relative;
+ }
+#home .images .logo{
+   width: 350px;
+   position: relative;
+   top: 0px;
+   right: 20cm;
+    
+}
+#home .images .image1{
+   position: relative;
+   right: 8cm;
+   
+}
+#home .images .image2{
+   position: relative;
+   top: 0cm;
+   right: 5cm;
+}
+#home .images .boy{
+   width: 180px;
+   position: absolute;
+   top:5cm;
+}
+
